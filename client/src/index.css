@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  font-size: 17px;
+  line-height:  26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px grey;
+  border-bottom: 0.1px solid grey !important;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  
+}
+
+.active{
+  border-bottom:  3px solid black;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color: antiquewhite;
+  border-bottom: 1px solid white;
+}
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+/* --------------------------------------------------
+---------contactUsPage---------------------------- */
+
+/* Apply CSS to the image with the class "image" */
+.contactUsPageImage {
+  /* Set the size of the image */
+  width: 500px; /* Adjust to your desired width */
+  height: 400px; /* Adjust to your desired height */
+
+  /* Center the image horizontally and vertically in its container */
+  display: block; /* Make it a block element to set dimensions and centering */
+  margin: 0 auto; /* Center horizontally */
+
+  /* Add box shadow (optional) */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.contactDetailsDiv {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  
+}
+.contactDetailsDiv button{
+  background-color: rgb(106, 60, 4);
+}
+.contactDetailsbutton{
+  width: 150px; /* Set the width to your desired size */
+  height: 50px; /* Set the height to your desired size */
+}
+.outerDivOfContactus{
+  display: flex;
+  margin: 30px;
+}
+
+
+
+/* ------------------------------------
+---------register component--------- */
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin: auto auto; 
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #7f6ee8;
+  border: 1px solid #0b0404;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.product-link{
+  text-decoration: none  !important;
+  color: black !important;
+}
